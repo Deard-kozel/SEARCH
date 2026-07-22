@@ -1,0 +1,30 @@
+use_default_settings: true
+
+server:
+  secret_key: "235352532523532532"
+  limiter: false
+
+search:
+  safe_search: 0
+  formats:
+    - html
+    - json   # Включаем JSON API
+
+engines:
+  # Основные мета-поисковики (индексируют X/Twitter, LinkedIn, VC.ru, Habr, Facebook и др.)
+  - name: google
+    engine: google
+  - name: bing
+    engine: bing
+  - name: duckduckgo
+    engine: duckduckgo
+  - name: brave
+    engine: brave
+
+  # IT, стартап и комьюнити площадки
+  - name: reddit
+    engine: reddit
+  - name: hacker news
+    engine: hackernews
+  - name: youtube
+    engine: youtube
