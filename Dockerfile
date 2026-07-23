@@ -1,2 +1,2 @@
-FROM itzcrazykns1337/vane:latest
-EXPOSE 3000
+FROM itzcrazykns1337/perplexica:main
+EXPOSE 8080
