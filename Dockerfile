@@ -1,3 +1,2 @@
-FROM searxng/searxng:latest
-COPY settings.yml /etc/searxng/settings.yml
-EXPOSE 8080
+FROM itzcrazykns1337/vane:latest
+EXPOSE 3000
