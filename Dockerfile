@@ -1,3 +1,2 @@
-FROM itzcrazykns1337/vane:main
-ENV PORT=3000
-EXPOSE 3000
+FROM activepieces/activepieces:0.86.3-rc.10
+EXPOSE 8080
