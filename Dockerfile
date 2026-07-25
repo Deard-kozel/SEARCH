@@ -1,2 +1,3 @@
 FROM itzcrazykns1337/vane:main
+ENV PORT=3000
 EXPOSE 3000
